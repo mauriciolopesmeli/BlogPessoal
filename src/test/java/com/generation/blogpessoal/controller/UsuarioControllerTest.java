@@ -84,7 +84,7 @@ public class UsuarioControllerTest {
                 "Tuco Lopes", "tuco_lopes@email.com.br", "tuco123", "foto.jpg"));
 
         Usuario usuarioUpdate = new Usuario(usuarioCadastrado.get().getId(),
-                "Tuco Lopes Oliveira", "tuco_oliveira@email.com.br", "tuco123" , "foto.jpg");
+                "Tuco Lopes Oliveira", "tuco_oliveira@email.com.br", "tuco1234" , "foto2.jpg");
 
         HttpEntity<Usuario> corpoRequisicao = new HttpEntity<Usuario>(usuarioUpdate);
 
